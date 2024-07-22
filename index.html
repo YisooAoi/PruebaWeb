@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Links</title>
+  </head>
+  <body>
+    <div id="barraNavegadora">
+      <button type="button" name="paleta">Modo Oscuro</button>
+    </div>
+    <table id="mostradorTablas">
+      <tbody id="defecto">
+        <tr>
+          <td class="itemLista">Nombre</td>
+          <td class="itemLista">Link</td>
+          <td class="itemLista">Fecha de modificación</td>
+          <td class="itemLista">Imágen</td>
+          <td class="itemLista"><button type="button" name="Añadir Link" onclick='window.location.href="editor.html";'> Añadir Link</button></td>
+        </tr>
+      </tbody>
+      <tbody id="mostradorLinks">
+
+      </tbody>
+    </table>
+
+    <script src="comunicacionBaseDeDatos\javascript\mostrarListaLinks.js" charset="utf-8"></script>
+    <script src="comunicacionBaseDeDatos\javascript\eliminarLink.js" charset="utf-8"></script>
+
+  </body>
+</html>

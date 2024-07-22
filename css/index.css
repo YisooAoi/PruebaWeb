@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  background-color: #0d1334;
+  color: #FFCADA;
+}
+/* table, tbody, tr, td {
+  border-collapse: collapse;
+} */
+table, tbody{
+  width: 90%;
+  margin: 5% auto;
+  border-collapse: collapse;
+}
+tr {
+    border: 1px solid #FFCADA;
+}
+.itemLista {
+  background-color: #504ca1;
+  padding-left:  16px;
+  padding-right: 16px;
+}
+.botonSVG {
+  height:64px;
+  width: 64px;
+  margin: 0px;
+}
+.botonTabla {
+  padding: 0px;
+  margin: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+#barraNavegadora {
+  background-color: #806FE8;
+  height: 32px;
+  width: 100%;
+}

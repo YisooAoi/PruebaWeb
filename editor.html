@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/editor.css">
+    <title>Editor de Links</title>
+  </head>
+  <body>
+    <div id="barraNavegadora">
+      <h3>Editor de Links</h3>
+    </div>
+    <form id="formularioEditor" action="comunicacionBaseDeDatos\php\guardarLink.php" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre del Link">
+      <input type="text" name="link" placeholder="dirección del Link">
+      <input type="text" name="imagen" placeholder="imagen">
+      <input type="submit" name="Confirmar" value="Confirmar" id="guardar"></input>
+    </form>
+    <!-- Agregar:
+
+    procesamiento de imagenes
+      -guardar imagen en base de datos y/o cliente
+      -almacenar imagen como ruta a la imagen
+
+    fecha de modificacion de un elemento
+      -usar date(); o alguna variante y pasar valor a base de datos
+    -->
+    <script src="comunicacionBaseDeDatos/javascript/editor.js" charset="utf-8"></script>
+  </body>
+</html>

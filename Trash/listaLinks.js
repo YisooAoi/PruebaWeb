@@ -16,5 +16,6 @@ solicitudXmlHttp.onload = function () {
     <td> ${datos.imagen} </td>
     </tr>`
   });
+  console.log(codigoHTML);
   tabla.innerHTML = codigoHTML;
 }

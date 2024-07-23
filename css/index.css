@@ -1,3 +1,4 @@
+/*Fondo*/
 body, html {
   margin: 0;
   padding: 0;
@@ -7,12 +8,20 @@ body, html {
   vertical-align: baseline;
 }
 body {
-  background-color: #afb3cf;
+  background-color: #0d1334;
   color: #FFCADA;
 }
-/* table, tbody, tr, td {
-  border-collapse: collapse;
-} */
+  
+
+/*Cabecera*/
+#barraNavegadora {
+  background-color: #806FE8;
+  height: 32px;
+  width: 100%;
+}
+
+  
+/*Tablas*/
 table, tbody{
   width: 90%;
   margin: 5% auto;
@@ -21,15 +30,17 @@ table, tbody{
 tr {
     border: 1px solid #FFCADA;
 }
+
+/*Celdas*/
 .itemLista {
   background-color: #504ca1;
   padding-left:  16px;
   padding-right: 16px;
 }
-.botonSVG {
-  height:64px;
-  width: 64px;
-  margin: 0px;
+.itemLista.botones {
+  display: flex;
+  flex-flow: column;
+  background-color: azure;
 }
 .botonTabla {
   padding: 0px;
@@ -37,8 +48,12 @@ tr {
   width: fit-content;
   height: fit-content;
 }
-#barraNavegadora {
-  background-color: #806FE8;
-  height: 32px;
-  width: 100%;
+
+
+/*Formato botones*/
+.botonSVG {
+  height:64px;
+  width: 64px;
+  margin: auto;
+  border: 1px black solid;
 }

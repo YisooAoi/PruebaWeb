@@ -1,4 +1,3 @@
-DROP DATABASE archivo_links;
 CREATE DATABASE archivo_links;
 USE archivo_links;
 
